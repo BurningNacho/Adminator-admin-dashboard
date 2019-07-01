@@ -63,6 +63,9 @@ export default (function () {
         }, {
           latLng : [25.20, 55.27],
           name : 'UAE : 250',
+        }, {
+          latLng : [40.41, -3.70],
+          name : 'ES : 250',
         }],
         series: {
           regions: [{
@@ -72,6 +75,7 @@ export default (function () {
               'AU': 760,
               'IN': 200,
               'GB': 120,
+              'ES': 300,
             },
             scale: ['#03a9f3', '#02a7f1'],
             normalizeFunction: 'polynomial',

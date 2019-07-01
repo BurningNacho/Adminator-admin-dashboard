@@ -10,7 +10,7 @@ export default (function () {
 
   const drawSparklines = () => {
     if ($('#sparklinedash').length > 0) {
-      $('#sparklinedash').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
+      $('#sparklinedash').sparkline([0, 150, 100, 200, 150, 175, 0, 300], {
         type: 'bar',
         height: '20',
         barWidth: '3',
@@ -21,7 +21,7 @@ export default (function () {
     }
 
     if ($('#sparklinedash2').length > 0) {
-      $('#sparklinedash2').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
+      $('#sparklinedash2').sparkline([0, 0, 0, 1, 2, 1, 0, 2], {
         type: 'bar',
         height: '20',
         barWidth: '3',
